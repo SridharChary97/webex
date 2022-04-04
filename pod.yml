@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodeapp
+  name: nodeapp1
   labels:
     app: oneapp
 spec:
   containers:
-    - name: nodeapp
+    - name: the
       image: sridharg97/hello:0.01
       ports:
         - containerPort: 8080

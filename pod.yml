@@ -9,4 +9,4 @@ spec:
   - name: the
     image: sridharg97/hello:0.01
     ports:
-    - containerPort: 8080
+    - containerPort: 8090

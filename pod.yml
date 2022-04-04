@@ -6,7 +6,7 @@ metadata:
     app: oneapp
 spec:
   containers:
-    - name: the
-      image: sridharg97/hello:0.01
-      ports:
-        - containerPort: 8080
+  - name: the
+    image: sridharg97/hello:0.01
+    ports:
+    - containerPort: 8080
